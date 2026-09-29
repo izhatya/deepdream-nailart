@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deep Dream Nailart — Nail Art & Eyelash Extension</title>
+<meta name="description" content="Deep Dream Nailart — Studio nail art & eyelash extension. Booking sekarang!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header id="header">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">
+      <b>DEEP DREAM</b>
+      <small>Nailart</small>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#services">Layanan</a></li>
+      <li><a href="#price">Harga</a></li>
+      <li><a href="#gallery">Galeri</a></li>
+      <li><a href="#booking" class="btn-nav">Booking</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="eyebrow"><i></i> Nail Art &amp; Eyelash Studio</div>
+        <h1>Wujudkan <em>Dreamy Look</em><br>di Ujung Jari &amp; Mata</h1>
+        <p class="lead">
+          Deep Dream Nailart menghadirkan nail art custom handpainted dan eyelash extension
+          yang halus, natural, dan tahan lama.
+        </p>
+        <div class="hero-cta">
+          <a href="#booking" class="btn btn-primary">🎀 Booking Sekarang</a>
+          <a href="#services" class="btn btn-ghost">Lihat Layanan</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>500+</b><span>CLIENT HAPPY</span></div>
+          <div><b>4.9★</b><span>RATING</span></div>
+          <div><b>3 Thn</b><span>PENGALAMAN</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orb">
+          <div class="orb-emoji"><img src="https://images.pexels.com/photos/16363470/pexels-photo-16363470.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Nail Art" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+        </div>
+        <div class="float-card c1"><span class="ic">🎀</span> Handpainted Art</div>
+        <div class="float-card c2"><span class="ic">👁️</span> Lash Extension</div>
+        <div class="float-card c3"><span class="ic">🌸</span> Hygienis &amp; Aman</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Nail Extension</span><span>Gel Polish</span><span>Handpainted Art</span>
+    <span>Lash Extension</span><span>Lash Lift</span><span>Nail Refill</span>
+    <span>Nail Extension</span><span>Gel Polish</span><span>Handpainted Art</span>
+    <span>Lash Extension</span><span>Lash Lift</span><span>Nail Refill</span>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="sec" id="about">
+  <div class="glow v" style="width:420px;height:420px;top:10%;left:-180px"></div>
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="eyebrow"><i></i> Tentang Kami</div>
+        <h2>Studio Kecil dengan <em>Detail Besar</em></h2>
+        <p>
+          Deep Dream Nailart lahir dari kecintaan pada seni kuku dan keinginan membuat
+          setiap orang merasa lebih percaya diri.
+        </p>
+        <p>
+          Setiap set dikerjakan dengan tangan, menggunakan produk berkualitas, alat yang
+          disterilkan, dan hasil yang disesuaikan dengan kepribadianmu.
+        </p>
+        <ul class="feat-list">
+          <li>
+            <div class="ic">🧼</div>
+            <div><b>Higienis &amp; Steril</b><small>Alat disteril setiap kali digunakan</small></div>
+          </li>
+          <li>
+            <div class="ic">🎨</div>
+            <div><b>Custom Design</b><small>Bebas request motif &amp; warna favoritmu</small></div>
+          </li>
+          <li>
+            <div class="ic">⏳</div>
+            <div><b>Tahan Lama</b><small>Hasil rapi hingga 3–4 minggu</small></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="about-visual reveal">
+        <div class="tile">💅</div>
+        <div class="tile">👁️</div>
+        <div class="tile">🌸</div>
+        <div class="tile">🎀</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="sec" id="services">
+  <div class="glow p" style="width:400px;height:400px;top:20%;right:-160px"></div>
+  <div class="container">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><i></i> Layanan Kami</div>
+      <h2>Pilih <em>Vibes</em> Kamu Hari Ini</h2>
+      <p>Dua layanan utama kami: nail art dan eyelash.</p>
+    </div>
+
+    <div class="tabs reveal">
+      <button class="tab-btn active" data-tab="nail">💅 Nail Art</button>
+      <button class="tab-btn" data-tab="lash">👁️ Eyelash</button>
+    </div>
+
+    <div class="tab-panel active" id="nail">
+      <div class="svc"><div class="ic">💅</div><h3>Classic Manicure</h3><p>Perawatan dasar kuku: cuticle care, shaping, dan polish.</p><div class="price">Rp 75.000 <small>/ visit</small></div></div>
+      <div class="svc"><div class="ic">🎨</div><h3>Gel Polish</h3><p>Warna glossy tahan lama hingga 3 minggu.</p><div class="price">Rp 120.000 <small>/ visit</small></div></div>
+      <div class="svc"><div class="ic">🎀</div><h3>Nail Extension</h3><p>Perpanjangan kuku bentuk almond, coffin, atau square.</p><div class="price">Rp 250.000 <small>/ set</small></div></div>
+      <div class="svc"><div class="ic">🖌️</div><h3>Handpainted Custom Art</h3><p>Nail art lukis tangan — bebas request motif.</p><div class="price">Rp 300.000+ <small>/ set</small></div></div>
+      <div class="svc"><div class="ic">🔄</div><h3>Refill / Infill</h3><p>Perawatan ulang kuku extension.</p><div class="price">Rp 175.000 <small>/ visit</small></div></div>
+      <div class="svc"><div class="ic">🧴</div><h3>Nail Removal</h3><p>Pelepasan kuku extension dengan aman.</p><div class="price">Rp 50.000 <small>/ visit</small></div></div>
+    </div>
+
+    <div class="tab-panel" id="lash">
+      <div class="svc"><div class="ic">👁️</div><h3>Lash Extension Classic</h3><p>1 bulu mata ekstensi per bulu asli.</p><div class="price">Rp 150.000 <small>/ set</small></div></div>
+      <div class="svc"><div class="ic">🌸</div><h3>Lash Extension Hybrid</h3><p>Kombinasi classic dan volume.</p><div class="price">Rp 175.000 <small>/ set</small></div></div>
+      <div class="svc"><div class="ic">💖</div><h3>Lash Extension Volume</h3><p>Efek dramatis dan bervolume.</p><div class="price">Rp 200.000 <small>/ set</small></div></div>
+      <div class="svc"><div class="ic">🌿</div><h3>Lash Lift &amp; Tint</h3><p>Melentikkan bulu mata asli tanpa ekstensi.</p><div class="price">Rp 175.000 <small>/ set</small></div></div>
+      <div class="svc"><div class="ic">🔄</div><h3>Lash Refill</h3><p>Pengisian ulang bulu mata yang rontok.</p><div class="price">Rp 100.000 <small>/ visit</small></div></div>
+      <div class="svc"><div class="ic">🧴</div><h3>Lash Removal</h3><p>Pelepasan ekstensi dengan cairan lembut.</p><div class="price">Rp 50.000 <small>/ visit</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICE ================= -->
+<section class="sec" id="price">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><i></i> Daftar Harga</div>
+      <h2>Harga <em>Transparan</em>, Tanpa Kejutan</h2>
+      <p>Semua harga sudah termasuk konsultasi desain.</p>
+    </div>
+
+    <div class="price-wrap">
+      <div class="price-card reveal">
+        <h3>💅 Nail Art</h3>
+        <p>Perawatan &amp; seni kuku</p>
+        <div class="price-row"><span class="nm">Classic Manicure</span><span class="dots"></span><span class="val">75.000</span></div>
+        <div class="price-row"><span class="nm">Gel Polish</span><span class="dots"></span><span class="val">120.000</span></div>
+        <div class="price-row"><span class="nm">Nail Extension</span><span class="dots"></span><span class="val">250.000</span></div>
+        <div class="price-row"><span class="nm">Handpainted Custom Art</span><span class="dots"></span><span class="val">300.000+</span></div>
+        <div class="price-row"><span class="nm">Refill / Infill</span><span class="dots"></span><span class="val">175.000</span></div>
+        <div class="price-row"><span class="nm">Nail Removal</span><span class="dots"></span><span class="val">50.000</span></div>
+        <div class="price-note">*Harga dapat berubah sesuai tingkat kesulitan desain.</div>
+      </div>
+
+      <div class="price-card reveal">
+        <h3>👁️ Eyelash</h3>
+        <p>Ekstensi &amp; perawatan bulu mata</p>
+        <div class="price-row"><span class="nm">Lash Extension Classic</span><span class="dots"></span><span class="val">150.000</span></div>
+        <div class="price-row"><span class="nm">Lash Extension Hybrid</span><span class="dots"></span><span class="val">175.000</span></div>
+        <div class="price-row"><span class="nm">Lash Extension Volume</span><span class="dots"></span><span class="val">200.000</span></div>
+        <div class="price-row"><span class="nm">Lash Lift &amp; Tint</span><span class="dots"></span><span class="val">175.000</span></div>
+        <div class="price-row"><span class="nm">Lash Refill</span><span class="dots"></span><span class="val">100.000</span></div>
+        <div class="price-row"><span class="nm">Lash Removal</span><span class="dots"></span><span class="val">50.000</span></div>
+        <div class="price-note">*Disarankan refill setiap 2–3 minggu.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="sec" id="gallery">
+  <div class="glow b" style="width:380px;height:380px;bottom:5%;left:-150px"></div>
+  <div class="container">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><i></i> Galeri</div>
+      <h2>Hasil Karya <em>Deep Dream</em></h2>
+      <p>Sedikit cuplikan dari set-set cantik yang sudah kami kerjakan.</p>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="gal g1">💅<span class="cap">Chrome Almond Set</span></div>
+      <div class="gal g2">🎀<span class="cap">Glitter French Tip</span></div>
+      <div class="gal g3">👁️<span class="cap">Volume Lash Set</span></div>
+      <div class="gal g4">🌸<span class="cap">Butterfly Art</span></div>
+      <div class="gal g5">🌸<span class="cap">Soft Pink Ombre</span></div>
+      <div class="gal g6">💖<span class="cap">Hybrid Lash Look</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONI ================= -->
+<section class="sec" id="testi">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><i></i> Testimoni</div>
+      <h2>Kata <em>Mereka</em></h2>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Nail art-nya rapi banget, detail dan sesuai request."</p>
+        <div class="who"><div class="av">A</div><div><b>Anisa R.</b><small>Nail Extension</small></div></div>
+      </div>
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Lash extension-nya ringan, gak bikin perih, natural."</p>
+        <div class="who"><div class="av">D</div><div><b>Dinda P.</b><small>Lash Extension</small></div></div>
+      </div>
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Tempatnya nyaman, alatnya bersih, dan ramah."</p>
+        <div class="who"><div class="av">S</div><div><b>Salsa M.</b><small>Gel Polish</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BOOKING ================= -->
+<section class="sec" id="booking">
+  <div class="glow p" style="width:400px;height:400px;top:15%;right:-170px"></div>
+  <div class="container">
+    <div class="booking-grid">
+      <div class="book-info reveal">
+        <div class="eyebrow"><i></i> Booking</div>
+        <h2>Amankan <em>Slot</em> Kamu</h2>
+        <p>Isi form dan kamu akan langsung terhubung ke WhatsApp kami.</p>
+
+        <div class="info-item"><div class="ic">📍</div><div><b>Lokasi</b><span>Jl. Contoh No. 123, Kota Anda</span></div></div>
+        <div class="info-item"><div class="ic">🕐</div><div><b>Jam Operasional</b><span>Sen–Sab: 09.00–20.00</span></div></div>
+        <div class="info-item"><div class="ic">📱</div><div><b>WhatsApp</b><span>+62 812-3456-7890</span></div></div>
+        <div class="info-item"><div class="ic">📷</div><div><b>Instagram</b><span>@deepdream.nailart</span></div></div>
+      </div>
+
+      <form id="bookingForm" class="reveal">
+        <div class="field">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" placeholder="Nama kamu" required>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="layanan">Layanan</label>
+            <select id="layanan" required>
+              <option value="">Pilih layanan</option>
+              <optgroup label="Nail Art">
+                <option>Classic Manicure</option>
+                <option>Gel Polish</option>
+                <option>Nail Extension</option>
+                <option>Handpainted Custom Art</option>
+                <option>Refill / Infill</option>
+                <option>Nail Removal</option>
+              </optgroup>
+              <optgroup label="Eyelash">
+                <option>Lash Extension Classic</option>
+                <option>Lash Extension Hybrid</option>
+                <option>Lash Extension Volume</option>
+                <option>Lash Lift &amp; Tint</option>
+                <option>Lash Refill</option>
+                <option>Lash Removal</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="field">
+            <label for="tanggal">Tanggal</label>
+            <input type="date" id="tanggal" required>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="jam">Jam</label>
+            <input type="time" id="jam" required>
+          </div>
+          <div class="field">
+            <label for="wa">No. WhatsApp</label>
+            <input type="tel" id="wa" placeholder="08xxxxxxxxxx" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="catatan">Catatan / Request Desain</label>
+          <textarea id="catatan" placeholder="Contoh: mau warna nude dengan aksen chrome..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">📲 Kirim via WhatsApp</button>
+        <p class="form-note">Kami akan membalas maksimal 1x24 jam.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#home" class="logo"><b>DEEP DREAM</b><small>Nailart</small></a>
+        <p>Studio nail art &amp; eyelash extension yang mengubah detail kecil jadi kepercayaan diri besar.</p>
+        <div class="socials">
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="TikTok">🎵</a>
+          <a href="#" title="WhatsApp">💬</a>
+          <a href="#" title="Shopee">🛍️</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Layanan</h4>
+        <ul>
+          <li><a href="#services">Nail Extension</a></li>
+          <li><a href="#services">Gel Polish</a></li>
+          <li><a href="#services">Handpainted Art</a></li>
+          <li><a href="#services">Lash Extension</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Kontak</h4>
+        <ul>
+          <li>Jl. Contoh No. 123</li>
+          <li>+62 812-3456-7890</li>
+          <li>hello@deepdream.id</li>
+          <li>Sen–Sab: 09.00–20.00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> <b>Deep Dream Nailart</b>. All rights reserved.</span>
+      <span>Made with 💗 &amp; a lot of glitter</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/6281234567890?text=Halo%20Deep%20Dream%20Nailart!"
+   class="wa-float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">💬</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
