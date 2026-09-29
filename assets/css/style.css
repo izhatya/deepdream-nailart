@@ -960,178 +960,71 @@ h1,h2,h3,.serif{
 }
 
 /* ============================================================
-   MOBILE FIX — perbaikan tampilan HP
+   MOBILE FIX V3 — clean & tested
    ============================================================ */
 @media(max-width:768px){
 
-  /* 1. HIDE float cards di HP */
-  .float-card,
-  .hero-visual .float-card{
-    display:none !important;
-    visibility:hidden !important;
-    opacity:0 !important;
-    pointer-events:none !important;
-  }
-
-  /* 2. ORB (Foto Hero) — biar keliatan di background pink */
-  .hero-visual{
-    order:-1;
-    max-width:260px !important;
-    margin:0 auto 36px !important;
-  }
-  .orb{
-    background:#fff !important;
-    border:2px solid rgba(236,72,153,.25) !important;
-    box-shadow:0 16px 44px rgba(236,72,153,.18) !important;
-  }
-  .orb.empty{
-    background:linear-gradient(160deg, #ffffff 0%, #fce4ef 100%) !important;
-  }
-
-  /* 3. GRID — paksa 1 kolom */
-  .tab-panel,
-  .tab-panel.active{
-    grid-template-columns:1fr !important;
-    gap:14px !important;
-  }
-  .price-wrap{
-    grid-template-columns:1fr !important;
-    gap:20px !important;
-  }
-
-  /* 4. Card lebih compact */
-  .svc{
-    padding:22px 20px !important;
-  }
-  .price-card{
-    padding:28px 22px !important;
-  }
-  form{
-    padding:30px 22px !important;
-  }
-
-  /* 5. Section padding lebih kecil */
-  .sec{
-    padding:70px 0 !important;
-  }
-
-  /* 6. Hero text disesuaikan */
-  .hero h1{
-    font-size:2rem !important;
-    line-height:1.15 !important;
-  }
-  .hero p.lead{
-    font-size:14.5px !important;
-  }
-
-  /* 7. Section heading */
-  .sec-head h2{
-    font-size:1.8rem !important;
-  }
-  .sec-head{
-    margin-bottom:40px !important;
-  }
-
-  /* 8. Tabs */
-  .tab-btn{
-    padding:11px 24px !important;
-    font-size:11px !important;
-  }
-
-  /* 9. Stats hero */
-  .hero-stats{
-    gap:24px !important;
-  }
-  .hero-stats div b{
-    font-size:26px !important;
-  }
-
-  /* 10. Marquee font */
-  .marquee-track span{
-    font-size:16px !important;
-  }
-}
-
-/* ============================================================
-   MOBILE FIX V2 — anti-overflow + burger kiri + drawer smooth
-   ============================================================ */
-@media(max-width:768px){
-
-  /* ===== 1. FIX OVERFLOW HORIZONTAL ===== */
+  /* 1. Anti-overflow basic */
   html, body{
     overflow-x: hidden !important;
-    max-width: 100vw !important;
-    width: 100% !important;
-    position: relative;
+    max-width: 100% !important;
+  }
+  .container{
+    padding: 0 20px !important;
+    max-width: 100% !important;
   }
 
-  /* Hilangkan fixed background di mobile — bikin aneh */
-  body{
-    background-attachment: scroll !important;
+  /* 2. HIDE float cards — paksa hilang */
+  .float-card,
+  .hero-visual .float-card{
+    display: none !important;
+    visibility: hidden !important;
   }
 
-  /* Semua section gak boleh lebih lebar dari layar */
-  section, header, footer, .container{
-    max-width: 100vw !important;
-    overflow-x: hidden;
-  }
-
-  /* ===== 2. BURGER PINDAH KE KIRI ===== */
+  /* 3. Burger ke KIRI */
   .nav-inner{
     justify-content: flex-start !important;
     gap: 12px !important;
   }
   .burger{
-    order: -1 !important;      /* taruh burger paling kiri */
+    order: -1 !important;
+    margin: 0 4px 0 0 !important;
     padding: 6px 6px 6px 0 !important;
-    margin-right: 4px !important;
   }
   .logo{
     order: 0 !important;
-    margin-right: auto !important;   /* logo nempel kiri, dorong yang lain ke kanan */
   }
 
-  /* ===== 3. DRAWER PAKAI TRANSFORM (lebih aman dari right:-100%) ===== */
+  /* 4. Drawer pakai transform */
   .nav-links{
     right: 0 !important;
-    transform: translateX(100%) !important;
-    transition: transform .45s cubic-bezier(.6,0,.3,1) !important;
+    transform: translateX(100%);
+    transition: transform .45s cubic-bezier(.6,0,.3,1);
     will-change: transform;
-    overflow-x: hidden;
   }
   .nav-links.open{
-    transform: translateX(0) !important;
-    right: 0 !important;
+    transform: translateX(0);
   }
 
-  /* ===== 4. HILANGKAN ELEMEN YANG BIKIN OVERFLOW ===== */
-  .float-card{
-    display: none !important;
-  }
-  .marquee-track{
-    /* Marquee tetap animasi tapi clip di parent-nya */
-    max-width: 100vw;
-  }
-
-  /* ===== 5. CONTAINER PADDING LEBIH KECIL ===== */
-  .container{
-    padding: 0 20px !important;
-  }
-
-  /* ===== 6. HERO LEBIH RAPI ===== */
-  .hero{
-    padding: 120px 0 60px !important;
-  }
+  /* 5. ORB (Foto Hero) — paksa keliatan putih */
   .hero-visual{
     max-width: 240px !important;
     margin: 0 auto 32px !important;
   }
-  .hero h1{
-    font-size: 1.9rem !important;
-    line-height: 1.15 !important;
+  .orb{
+    background: #ffffff !important;
+    border: 2px solid rgba(236,72,153,.28) !important;
+    box-shadow: 0 16px 40px rgba(236,72,153,.18) !important;
+  }
+  .orb.empty{
+    background: linear-gradient(160deg, #ffffff 0%, #fce4ef 100%) !important;
+  }
+  .orb.empty::before{
+    color: #ec4899 !important;
+    font-size: 20px !important;
   }
 
-  /* ===== 7. GRID 1 KOLOM ===== */
+  /* 6. Grid 1 kolom */
   .tab-panel,
   .tab-panel.active{
     grid-template-columns: 1fr !important;
@@ -1141,28 +1034,26 @@ h1,h2,h3,.serif{
     grid-template-columns: 1fr !important;
     gap: 20px !important;
   }
-  .svc, .price-card, form{
-    padding: 24px 20px !important;
-  }
 
-  /* ===== 8. SECTION PADDING ===== */
-  .sec{
-    padding: 70px 0 !important;
-  }
-  .sec-head{
-    margin-bottom: 40px !important;
-    padding: 0 4px;
-  }
-  .sec-head h2{
-    font-size: 1.7rem !important;
-  }
+  /* 7. Spacing compact */
+  .sec{ padding: 70px 0 !important; }
+  .hero{ padding: 120px 0 60px !important; }
+  .svc, .price-card, form{ padding: 24px 20px !important; }
+  .sec-head{ margin-bottom: 40px !important; }
 
-  /* ===== 9. MARQUEE FONT ===== */
-  .marquee-track span{
-    font-size: 15px !important;
-    gap: 36px !important;
-  }
-  .marquee-track{
-    gap: 36px !important;
-  }
+  /* 8. Font sizes */
+  .hero h1{ font-size: 1.85rem !important; line-height: 1.15 !important; }
+  .hero p.lead{ font-size: 14.5px !important; }
+  .sec-head h2{ font-size: 1.7rem !important; }
+  .hero-stats{ gap: 22px !important; }
+  .hero-stats div b{ font-size: 24px !important; }
+  .hero-stats div span{ font-size: 10px !important; }
+
+  /* 9. Marquee */
+  .marquee-track{ gap: 36px !important; }
+  .marquee-track span{ font-size: 15px !important; gap: 36px !important; }
+
+  /* 10. Tombol hero stack */
+  .hero-cta{ flex-direction: column; align-items: stretch; }
+  .hero-cta .btn{ justify-content: center; }
 }
